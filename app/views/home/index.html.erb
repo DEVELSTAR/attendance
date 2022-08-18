@@ -1,3 +1,9 @@
+<br><br><br>
+<hr>
+<%= link_to "class1", my_class_class1_path %>
+<%= link_to "class2", my_class_class2_path %>
+<%= link_to "class3", my_class_class3_path %>
+
 <table>
     <thead>
 
@@ -19,56 +25,3 @@
 
 <br><br><br>
 ....................................................................
-<table>
-    <thead>
-
-    <tr>
-     <th>Class 1 students</th><br>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @class1.each do |student| %>
-      <tr> 
-         <td style="text-transform: uppercase;"><%= student.name %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-<br><br><br>
-...............................................................................
-<table>
-    <thead>
-
-    <tr>
-     <th>Class 2 students</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @class2.each do |student| %>
-      <tr> 
-         <td style="text-transform: uppercase;"><%= student.name %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-<br><br><br>
-..............................................................................
-
-<table>
-    <thead>
-
-    <tr>
-     <th>Class 3 students</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @class3.each do |student| %>
-      <tr> 
-         <td style="text-transform: uppercase;"><%= student.name %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>

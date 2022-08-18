@@ -1,0 +1,17 @@
+<table>
+    <thead>
+
+    <tr>
+     <th>Class 3 students</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @class3.each do |student| %>
+      <tr> 
+         <td style="text-transform: uppercase;"><%= student.name %></td>
+         <td style="text-transform: uppercase;"><i><%= student.my_class.my_class %></strong></i>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
